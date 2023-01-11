@@ -2,14 +2,14 @@ import pandas as pd
 import numpy as np
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.naive_bayes import  GaussianNB
-from sklearn.linear_model import LogisticRegression
+from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import BaggingClassifier
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.tree import ExtraTreeClassifier
 from sklearn.ensemble import GradientBoostingClassifier
 from sklearn.neural_network import MLPClassifier
 
-fileName = "dropout-trabalho2.csv"
+fileName = "train.csv"
 class modelo:
     @classmethod
     def predict(cls, xTeste):
@@ -38,7 +38,7 @@ class modelo3:
         fileContent = pd.read_csv(fileName)
         X = fileContent.drop('Failure', axis='columns')
         y = fileContent['Failure']
-        clf = LogisticRegression()
+        clf = DecisionTreeClassifier()
         clf.fit(X,y)
         return clf.predict(xTeste)
 
@@ -58,7 +58,7 @@ class modelo5:
         fileContent = pd.read_csv(fileName)
         X = fileContent.drop('Failure', axis='columns')
         y = fileContent['Failure']
-        clf = RandomForestClassifier()
+        clf = RandomForestClassifier(n_estimators=500)
         clf.fit(X,y)
         return clf.predict(xTeste)
 

@@ -5,15 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d83c627f-b572-4e93-b3ec-b07a4fdbf431" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/copy.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trabalho2.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/trabalho2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teste.py" beforeDir="false" afterPath="$PROJECT_DIR$/teste.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trabalho2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/trabalho2.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trabalho2.py" beforeDir="false" afterPath="$PROJECT_DIR$/trabalho2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -44,7 +52,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.teste">
+  <component name="RunManager">
     <configuration name="teste" type="PythonConfigurationType" factoryName="Python">
       <module name="AA_Work_2" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -106,7 +114,9 @@
       <workItem from="1673285549620" duration="37000" />
       <workItem from="1673285602093" duration="4367000" />
       <workItem from="1673293403007" duration="4250000" />
-      <workItem from="1673302473157" duration="6524000" />
+      <workItem from="1673302473157" duration="6665000" />
+      <workItem from="1673367434001" duration="1827000" />
+      <workItem from="1673436151331" duration="3505000" />
     </task>
     <servers />
   </component>
@@ -124,7 +134,9 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/AA_Work_2$teste.coverage" NAME="teste Coverage Results" MODIFIED="1673308954060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AA_Work_2$teste.coverage" NAME="teste Coverage Results" MODIFIED="1673436853182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AA_Work_2$teste__1_.coverage" NAME="teste (1) Coverage Results" MODIFIED="1673368659202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AA_Work_2$trabalho2.coverage" NAME="trabalho2 Coverage Results" MODIFIED="1673286899220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AA_Work_2$obj2.coverage" NAME="obj2 Coverage Results" MODIFIED="1673439177887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
