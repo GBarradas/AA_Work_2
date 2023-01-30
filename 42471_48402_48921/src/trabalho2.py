@@ -17,7 +17,7 @@ def tratamentoDados(X):
                   X['Y3s1_grade']+X['Y3s2_grade']+ \
                   X['Y4s1_grade']+X['Y4s2_grade'])/8
     return pd.DataFrame.from_dict(y,orient='columns')
-fileName = "train.csv"
+fileName = "dropout-trabalho2.csv"
 
 #K-Neigboors
 class modelo:
